@@ -1,0 +1,190 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family: 'Source Sans Pro', Verdana, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #b53f3f;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+div#titleName {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3rem;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', Verdana, sans-serif;
+    text-shadow: 0 0 0.1em #000000;
+    text-transform: uppercase;
+}
+
+#titleSurname{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3rem;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', Verdana, sans-serif;
+    text-shadow: 0 0 0.1em #000000;
+    text-transform: uppercase;
+}
+.blink_me {
+    /* display: none; */
+    text-align: center;
+    font-size: 2rem;
+    /* padding-left: 57rem; */
+    text-transform: uppercase;
+    color: red;
+    border-style: solid;
+    /* margin-left: 46rem; */
+    /* margin-top: 0rem; */
+    /* padding: 1rem; */
+    border-width: 3px;
+    background-color: rgba(255, 255, 255, 0.53);
+}
+
+.middle{
+    display: none;
+}
+.how {
+    background-image: url(../image/bk2.jpg);
+    height: 38rem;
+    background-size: cover;
+}
+.title {
+    font-size: 2rem;
+    text-align: center;
+    background: black;
+    color: #b53f3f;
+    text-shadow: 1px white;
+    box-shadow: 10px 10px 5px #888888;
+}
+.bio {
+    background-color: white;
+    border-left: 5px solid black;
+    box-shadow: 10px 10px 5px #888888;
+}
+@media (min-width: 600px){
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+    li {
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+    .middle {
+    background: url(../image/bk2.jpg);
+    /* background-size: cover; */
+    background-attachment: fixed;
+    /* height: 55rem; */
+    padding: 1rem;
+    background-size: cover;
+    display: block;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 800px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
+
+    div#titleName {
+    font-size: 8rem;
+}
+    div#titleSurname {
+    font-size: 4rem;
+}
+
+
+    .how {
+    /* background: rgba(255, 255, 255, 0.14); */
+    /* border-radius: 3px; */
+    /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); */
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    /* top: 10px; */
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 2;
+    padding: 2px 10px;
+    background-image: none;
+    height: none
+    background-size: none;
+    }
+
+    .blink_me {
+    text-align: center;
+    font-size: 4rem;
+    /* padding-left: 57rem; */
+    /* text-transform: uppercase; */
+    color: red;
+    border-style: solid;
+    /* margin-left: 46rem; */
+    /* margin-top: 0rem; */
+    /* padding: 0rem; */
+    /* width: 23rem; */
+    border-width: 8px;
+    /* width: 24%; */
+    /* margin-left: 37%; */
+    /* margin-left: 47rem; */
+    }
+    .title {
+    padding-top: 52rem;
+}
+}
+
+@media (min-width: 1500px){
+    ul {
+    padding-left: 39rem;
+    }
+    .blink_me{
+    width: 24%;
+    margin-left: 37%;
+    background-color: rgba(255, 255, 255, 0);
+    }
+}
+
