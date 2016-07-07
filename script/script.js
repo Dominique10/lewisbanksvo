@@ -1,3 +1,9 @@
+jQuery(function($){
+    	     $( '.menu-btn' ).click(function(){
+    	     $('.responsive-menu').toggleClass('expand')
+    	     })
+        })
+
 $(function(){
 	function blinker() {
     $('.blink_me').fadeOut(1000);
