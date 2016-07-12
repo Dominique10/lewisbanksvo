@@ -21,7 +21,7 @@ var track_url = 'https://soundcloud.com/lewisbanksvoice/lewis-banks-commercial-d
 SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
   console.log('oEmbed response: ', oEmbed);
   console.log(oEmbed.html);
-  $(".commercial").append('<iframe width="100%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F127268567&show_artwork=true&auto_play=true"></iframe>');
+  $(".commercial").append('<iframe width="100%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F127268567&show_artwork=true&auto_play=false"></iframe>');
   //$("iframe").css('display','none');
 });
 
@@ -59,6 +59,7 @@ SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
           $(".bio").css("display","none");
           $(".commercial").css("display","none");
           $(".sports").css("display","block");
+          $('.responsive-menu').toggleClass('expand');
         }
 
         else if (this.id == "home") {
@@ -68,5 +69,6 @@ SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
           $(".bio").css("display","block");
           $(".commercial").css("display","block");
           $(".sports").css("display","none");
+          $('.responsive-menu').toggleClass('expand');
         }
     })

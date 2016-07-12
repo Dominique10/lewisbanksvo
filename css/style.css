@@ -179,6 +179,35 @@ div#titleName {
         padding: 14px 16px;
         text-decoration: none;
     }
+    .sampleWork {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    /* text-align: center; */
+    background-color: #f1f1f1;
+    /* padding-left: 0rem; */
+    }
+    
+    .sampleWork li iframe {
+    display: block;
+    }
+
+    .sampleWork li {
+        float: none;
+    }
+    .sampleWork li p a {
+        background-color: #555;
+    }
+ 
+    .sports .sampleWork li {
+        border-style: solid;
+        box-shadow: 10px 10px 5px #888888;
+        width: 27rem;
+        height: 19rem;
+        padding: 3rem;
+        margin: 1rem;
+        /* text-align: center; */
+    }
 
     /* Change the link color to #111 (black) on hover */
     li a:hover {
