@@ -109,7 +109,7 @@ div#titleName {
 }
 .how {
     background-image: url(../image/bk2.jpg);
-    height: 38rem;
+    height: 48rem;
     background-size: cover;
 }
 .title {
@@ -160,6 +160,8 @@ div#titleName {
 }
 
 
+
+
 @media (min-width: 600px){
     .menu-btn{
         display:none;
@@ -168,17 +170,17 @@ div#titleName {
         display: block !important;
     }
     ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
     }
     li {
-    float: left;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        float: left;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     }
 
     li a {
@@ -189,23 +191,24 @@ div#titleName {
         text-decoration: none;
     }
     .sampleWork {
-    list-style-type: none;
-    margin: 0;
-    padding: 1rem;
-    /* text-align: center; */
-    background-color: #f1f1f1;
-    /* padding-left: 0rem; */
+        list-style-type: none;
+        margin: 0;
+        padding: 1rem;
+        /* text-align: center; */
+        background-color: #f1f1f1;
+        /* padding-left: 0rem; */
     }
 
     .sampleWork li iframe {
-    display: block;
+        display: block;
     }
 
-    .sampleWork li {
+    /*.sampleWork li {
         float: none;
-    }
+    }*/
     .sampleWork li p a {
         background-color: #555;
+        box-shadow: 4px 3px 5px #888888;
     }
  
     .sports .sampleWork li {
@@ -222,11 +225,11 @@ div#titleName {
     li a:hover {
         background-color: #111;
     }
-    .middle {
+/*    .middle {
     background: url(../image/bk2.jpg);
-    /* background-size: cover; */
+    background-size: cover;
     background-attachment: fixed;
-    /* height: 55rem; */
+    height: 55rem;
     padding: 1rem;
     background-size: cover;
     display: block;
@@ -237,7 +240,7 @@ div#titleName {
     position: fixed;
     right: 0;
     z-index: 1;
-}
+}*/
 
     div#titleName {
     font-size: 8rem;
@@ -246,13 +249,13 @@ div#titleName {
     font-size: 4rem;
 }
 
-
+/*
     .how {
-    /* background: rgba(255, 255, 255, 0.14); */
-    /* border-radius: 3px; */
-    /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); */
+     background: rgba(255, 255, 255, 0.14); 
+     border-radius: 3px;
+     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); 
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    /* top: 10px; */
+    /* top: 10px; 
     left: 0;
     position: fixed;
     right: 0;
@@ -261,7 +264,7 @@ div#titleName {
     background-image: none;
     height: none
     background-size: none;
-    }
+    }*/
 
     .blink_me {
     text-align: center;
@@ -280,7 +283,7 @@ div#titleName {
     /* margin-left: 47rem; */
     }
     .title {
-    padding-top: 52rem;
+   /*padding-top: 52rem;*/
     }
     iframe {
     display:none;
