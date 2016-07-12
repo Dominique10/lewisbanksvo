@@ -133,11 +133,10 @@ div#titleName {
 .sports{
     display:none;
 }
-.sports
-
-.sampleWork li {
+.sports .sampleWork li {
     border-style: solid;
     box-shadow: 10px 10px 5px #888888;
+    margin: 2rem;
 }
 .sampleWork{
     list-style-type: none;
@@ -153,6 +152,11 @@ div#titleName {
     font-weight: bolder;
     padding: 1rem;
     text-align: center;
+}
+
+.sampleWork li p a {
+    padding: 0;
+    font-size: 15px;
 }
 
 
