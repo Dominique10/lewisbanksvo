@@ -290,6 +290,26 @@ div#titleName {
     }
 }
 
+@media (min-width: 700px){
+    .sampleWork{
+        padding-left: 3.5rem;
+    }
+}
+
+@media (min-width: 800px){
+    .sampleWork{
+        padding-left: 6.5rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .sampleWork{
+        padding-left: 13.5rem;
+    }
+}
+
+
+
 @media (min-width: 1500px){
     ul {
     padding-left: 39rem;
