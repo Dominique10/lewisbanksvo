@@ -119,11 +119,16 @@ div#titleName {
     color: #b53f3f;
     text-shadow: 1px white;
     box-shadow: 10px 10px 5px #888888;
+    margin: 1rem;
 }
 .bio {
     background-color: white;
     border-left: 5px solid black;
     box-shadow: 10px 10px 5px #888888;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
 }
 .sports{
     display:none;
@@ -187,7 +192,7 @@ div#titleName {
     background-color: #f1f1f1;
     /* padding-left: 0rem; */
     }
-    
+
     .sampleWork li iframe {
     display: block;
     }
