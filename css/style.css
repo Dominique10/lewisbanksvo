@@ -65,6 +65,12 @@ li a.active {
     background-color: #b53f3f;
     color: white;
 }
+li#sports a.active{
+    background-color: deepskyblue;
+}
+li#work a.active{
+    background-color: chocolate;
+}
 
 li a:hover:not(.active) {
     background-color: #555;
@@ -130,15 +136,22 @@ div#titleName {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
 }
-.sports{
+.sports,.work{
     display:none;
 }
-.sports .sampleWork li {
+
+ul.sampleWorkSports {
+    background: deepskyblue;
+}
+ul.sampleWork{
+    background: chocolate;
+}
+.sports .sampleWorkSports li, .work .sampleWork li {
     border-style: solid;
     box-shadow: 10px 10px 5px #888888;
     margin: 2rem;
 }
-.sampleWork{
+.sampleWorkSports, .sampleWork{
     list-style-type: none;
     margin: 0;
     padding: 1rem;
@@ -154,7 +167,7 @@ div#titleName {
     text-align: center;
 }
 
-.sampleWork li p a {
+.sampleWorkSports li p a, .sampleWork li p a  {
     padding: 0;
     font-size: 15px;
 }
@@ -190,34 +203,35 @@ div#titleName {
         padding: 14px 16px;
         text-decoration: none;
     }
-    .sampleWork {
+    .sampleWorkSports, .sampleWork {
         list-style-type: none;
         margin: 0;
         padding: 1rem;
         /* text-align: center; */
-        background-color: #f1f1f1;
+        /*background-color: #f1f1f1;*/
         /* padding-left: 0rem; */
     }
 
-    .sampleWork li iframe {
+    .sampleWorkSports li iframe, .sampleWork li iframe {
         display: block;
     }
 
     /*.sampleWork li {
         float: none;
     }*/
-    .sampleWork li p a {
+    .sampleWorkSports li p a, .sampleWork li p a {
         background-color: #555;
         box-shadow: 4px 3px 5px #888888;
     }
  
-    .sports .sampleWork li {
+    .sports .sampleWorkSports li, .work .sampleWork li {
         border-style: solid;
         box-shadow: 10px 10px 5px #888888;
         width: 27rem;
         height: 19rem;
         padding: 3rem;
         margin: 1rem;
+        background-color: #f1f1f1;
         /* text-align: center; */
     }
 
@@ -291,19 +305,19 @@ div#titleName {
 }
 
 @media (min-width: 700px){
-    .sampleWork{
+    .sampleWorkSports, .sampleWork{
         padding-left: 3.5rem;
     }
 }
 
 @media (min-width: 800px){
-    .sampleWork{
+    .sampleWorkSports, .sampleWork{
         padding-left: 6.5rem;
     }
 }
 
 @media (min-width: 1024px){
-    .sampleWork{
+    .sampleWorkSports, .sampleWork{
         padding-left: 13.5rem;
     }
 }
@@ -318,6 +332,9 @@ div#titleName {
     width: 24%;
     margin-left: 37%;
     background-color: rgba(255, 255, 255, 0);
+    }
+    .sampleWorkSports, .sampleWork{
+        padding: 6rem;
     }
 }
 
